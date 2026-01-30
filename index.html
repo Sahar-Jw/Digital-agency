@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- HEAD START -->
+    <header>
+        <!-- NAV START -->
+        <nav class="d-flex justify-content-between">
+            <h1>
+                Digital Agency
+            </h1>
+            <ul class="d-flex gap-5">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Testimonials</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+                <button class="menu navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <img src="./assets/img/menu.svg" alt="">
+                </button>
+                <div class=" offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        Digital Agency
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- NAV END -->
+
+        <!-- HERO START -->
+        <div class="hero d-flex justify-content-between">
+            <div class="text">
+                <h1>
+                    Building digital products, brands & experience
+                </h1>
+                <p>
+                    Digital Agency is your online team mangement tool that easy and prompt
+                </p>
+                <button class="main-btn">
+                    Contact Us
+                </button>
+            </div>
+            <!-- <img src="./assets/img/hero-img.png" alt=""> -->
+            <img src="./assets/img/hero-img.png" alt="">
+        </div>
+        <!-- HERO END -->
+    </header>
+    <!-- HEAD END -->
+
+    <!-- MAIN START -->
+    <main>
+        <!-- TRUSTED-COMPANIES SECTION START -->
+        <section class="trusted-companies d-flex flex-column justify-content-center align-items-center gap-1">
+            <p class="m-0">
+                Trusted by 4,000+ companies
+            </p>
+            <div class="companies d-flex gap-5 p-3">
+                <img src="./assets/img/spotify.svg" alt="">
+                <img src="./assets/img/slack.svg" alt="">
+                <img src="./assets/img/dropbox.svg" alt="">
+                <img src="./assets/img/zoom.svg" alt="">
+            </div>
+        </section>
+        <!-- TRUSTED-COMPANIES SECTION END -->
+
+        <!-- BRANDING-AND DESIGN SECTION START -->
+        <section class="branding-and-design d-flex justify-content-between align-items-center">
+            <img src="./assets/img/designer-team.png" alt="">
+            <div class="text">
+                <h1>
+                    Branding & Design system
+                </h1>
+                <p>
+                    Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups
+                </p>
+                <a href="#">
+                    <i class="fa-solid fa-arrow-right-long right"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-arrow-down-long down"></i>
+                </a>
+            </div>
+        </section>
+        <!-- BRANDING-AND DESIGN SECTION END -->
+
+        <!-- CUSTTOME-AND-PLUGIN SECTION START -->
+        <section class="custtome-and-plugin d-flex justify-content-between align-items-center">
+            <div class="text">
+                <h1>
+                    Custome & Plugin Development
+                </h1>
+                <p>
+                    Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups
+                </p>
+                <a href="#">
+                    <i class="fa-solid fa-arrow-right-long right"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-arrow-down-long down"></i>
+                </a>
+            </div>
+            <img src="./assets/img/custome-and-plugin.png" alt="">
+        </section>
+        <!-- CUSTTOME-AND-PLUGIN SECTION END -->
+
+        <!-- COMMENTS SECTION START -->
+        <section class="comments">
+            <div class="text">
+                <p>
+                TESTIMONIALS
+                </p>
+                <h1>
+                    Read What Other have to Say
+                </h1>
+            </div>
+            <div class="slider">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                    <!-- <div class="carousel-inner">
+                        <div class="carousel-item active"data-bs-interval="3000">
+                            <div class="cards">
+                                <img src="./assets/img/slide-1.png" alt="">
+                                <h2>
+                                    Andrew Rathore
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                            </div>
+                            <div class="cards">
+                                <img src="./assets/img/slide-2.png" alt="">
+                                <h2>
+                                    Vera Duncan
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.  
+                                </p>
+                            </div>
+                            <div class="cards">
+                                <img src="./assets/img/slide-3.png" alt="">
+                                <h2>
+                                    Mark Smith
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.  
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-12 col-lg-4 "data-bs-interval="3000">
+                            <div class="cards">
+                                <img src="./assets/img/slide-2.png" alt="">
+                                <h2>
+                                    Vera Duncan
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                            </div>
+                            <div class="cards">
+                                <img src="./assets/img/slide-1.png" alt="">
+                                <h2>
+                                    Andrew Rathore
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                            </div>
+                            <div class="cards">
+                                <img src="./assets/img/slide-3.png" alt="">
+                                <h2>
+                                    Mark Smith
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.  
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-12 col-lg-4 "data-bs-interval="3000">
+                            <div class="cards">
+                                <img src="./assets/img/slide-2.png" alt="">
+                                <h2>
+                                    Vera Duncan
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.                                 </p>
+                            </div>
+                            <div class="cards">
+                                <img src="./assets/img/slide-3.png" alt="">
+                                <h2>
+                                    Mark Smith
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.  
+                                </p>
+                            </div>
+                            <div class="cards">
+                                <img src="./assets/img/slide-1.png" alt="">
+                                <h2>
+                                    Andrew Rathore
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container-fluid">
+                                <div class="row gx-5">
+                                <div class="review col-lg-4">
+                                    <div class="info d-lg-flex gap-3">
+                                        <div class="cards">
+                                <img src="./assets/img/slide-1.png" alt="">
+                                <h2>
+                                    Andrew Rathore
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                            </div>
+                                    </div>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-lg-flex gap-3">
+                                        <div class="cards">
+                                <img src="./assets/img/slide-2.png" alt="">
+                                <h2>
+                                    Vera Duncan
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                                </div>
+                                </div>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-lg-flex gap-3">
+                                        <div class="cards">
+                                <img src="./assets/img/slide-3.png" alt="">
+                                <h2>
+                                    Mark Smith
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                <div class="review col-lg-4">
+                                    <div class="info d-lg-flex gap-3">
+                                        <div class="cards">
+                                <img src="./assets/img/slide-2.png" alt="">
+                                <h2>
+                                    Vera Duncan
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                                </div>
+                                </div>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-lg-flex gap-3">
+                                        <div class="cards">
+                                <img src="./assets/img/slide-3.png" alt="">
+                                <h2>
+                                    Mark Smith
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                            </div>
+                                    </div>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-lg-flex gap-3">
+                                        <div class="cards">
+                                <img src="./assets/img/slide-1.png" alt="">
+                                <h2>
+                                    Andrew Rathore
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                            </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                <div class="review col-lg-4">
+                                    <div class="info d-lg-flex gap-3">
+                                        <div class="cards">
+                                <img src="./assets/img/slide-3.png" alt="">
+                                <h2>
+                                    Mark Smith
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                            </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-lg-flex gap-3">
+                                        <div class="cards">
+                                <img src="./assets/img/slide-1.png" alt="">
+                                <h2>
+                                    Andrew Rathore
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                            </div>
+                                    </div>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-lg-flex gap-3">
+                                        <div class="cards">
+                                <img src="./assets/img/slide-2.png" alt="">
+                                <h2>
+                                    Vera Duncan
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                                </p>
+                            </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- COMMENTS SECTION END -->
+
+        <!-- BE-PART-OF SECTION START -->
+        <section class="be-part-of">
+            <div class="contain">
+                <img src="./assets/img/customer-support.png" alt="">
+            <div class="text">
+                <h1>
+                    Be a part of the next big thing
+                </h1>
+                <p>
+                    We work with Brans, Startups, to SMEs. Colaborate for more impact and growt
+                </p>
+                <button class="main-btn">
+                    Contact Us
+                </button>
+            </div>
+            </div>
+        </section>
+        <!-- BE-PART-OF SECTION END -->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="head">
+            <div class="web-info">
+                <h1>
+                    Digital Agency
+                </h1>
+                <p>
+                    Building digital products, 
+                    brands & experience
+                </p>
+            </div>
+            <div class="resources">
+                <h1>
+                    Resources
+                </h1>
+                <ul>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Cuistomer Stories</a></li>
+                    <li><a href="#">Glossery</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <h1>
+                    Company
+                </h1>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h1>
+                    Social Media
+                </h1>
+                <ul>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                © Matheus. Todos os direitos reservados
+            </p>
+            <p class="me">
+                By <span>Sahar-Jw</span>
+            </p>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+    <script src="./assets/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
